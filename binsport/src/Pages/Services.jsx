@@ -1,8 +1,12 @@
-export default function Services() {
+import SectionTitle from "../Components/SectionTitle";
+
+function Services() {
   return (
-    <div className="container">
-      <h1>Services</h1>
-      <p>Social media consulting, strategy development, content creation, and more.</p>
+    <div className="cy-section cy-light">
+      <SectionTitle title="Services" />
+      <p className="cy-text">Web Design • Branding • UX • Automation</p>
     </div>
   );
 }
+
+export default Services;

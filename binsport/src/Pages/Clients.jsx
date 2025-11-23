@@ -1,8 +1,12 @@
-export default function Clients() {
+import SectionTitle from "../Components/SectionTitle";
+
+function Clients() {
   return (
-    <div className="container">
-      <h1>Clients</h1>
-      <p>I've worked with a wide range of brands and businesses.</p>
+    <div className="cy-section cy-dark">
+      <SectionTitle title="Clients" />
+      <p className="cy-text-light">Trusted by innovative companies.</p>
     </div>
   );
 }
+
+export default Clients;

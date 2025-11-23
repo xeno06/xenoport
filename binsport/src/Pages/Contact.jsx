@@ -1,8 +1,12 @@
-export default function Contact() {
+import SectionTitle from "../Components/SectionTitle";
+
+function Contact() {
   return (
-    <div className="container">
-      <h1>Contact</h1>
-      <p>Email: hello@example.com</p>
+    <div className="cy-section cy-light">
+      <SectionTitle title="Contact Me" />
+      <p className="cy-text">Let's build something future-proof together.</p>
     </div>
   );
 }
+
+export default Contact;
