@@ -1,5 +1,5 @@
 import React from "react";
-import "./footer.css";   // <-- Import CSS
+import "./footer.css"; // Ensure exact casing
 
 export default function Footer() {
   return (
@@ -7,8 +7,9 @@ export default function Footer() {
       <div className="footer-content">
         <div className="footer-links">
           <a href="/about">About</a>
+          <a href="/services">Services</a>
+          <a href="/clients">Clients</a>
           <a href="/contact">Contact</a>
-          <a href="/privacy">Privacy</a>
         </div>
 
         <div className="footer-bottom">

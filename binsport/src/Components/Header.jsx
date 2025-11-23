@@ -1,17 +1,18 @@
 import React from "react";
-import "./Header.css"; // make sure filename matches exactly
+import { Link } from "react-router-dom";
+import "./header.css"; // Ensure exact casing
 
-export default function header() {
+export default function Header() {
   return (
     <header className="cy-header">
       <div className="cy-logo">Binsport</div>
 
       <nav className="cy-nav">
-        <a href="/">Home</a>
-        <a href="/services">Services</a>
-        <a href="/clients">Clients</a>
-        <a href="/about">About</a>
-        <a href="/contact">Contact</a>
+        <Link to="/">Home</Link>
+        <Link to="/services">Services</Link>
+        <Link to="/clients">Clients</Link>
+        <Link to="/about">About</Link>
+        <Link to="/contact">Contact</Link>
       </nav>
     </header>
   );
