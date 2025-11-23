@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Header.css"; // Ensure exact casing
+import "../Header.css"; // Ensure exact casing
 
 export default function Header() {
   return (
