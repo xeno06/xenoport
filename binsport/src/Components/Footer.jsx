@@ -1,11 +1,20 @@
-import "./Footer.css";
+import React from "react";
+import "./footer.css";   // <-- Import CSS
 
-function Footer() {
+export default function Footer() {
   return (
-    <footer className="cy-footer">
-      <p>© {new Date().getFullYear()} Cyborg Portfolio. All Rights Reserved.</p>
+    <footer className="footer">
+      <div className="footer-content">
+        <div className="footer-links">
+          <a href="/about">About</a>
+          <a href="/contact">Contact</a>
+          <a href="/privacy">Privacy</a>
+        </div>
+
+        <div className="footer-bottom">
+          © 2025 Binsport. All rights reserved.
+        </div>
+      </div>
     </footer>
   );
 }
-
-export default Footer;

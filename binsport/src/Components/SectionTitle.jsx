@@ -1,7 +1,6 @@
-import "./SectionTitle.css";
+import React from "react";
+import "./section.css";   // <-- This is where you import the CSS
 
-const SectionTitle = ({ title }) => {
-  return <h1 className="cy-section-title">{title}</h1>;
-};
-
-export default SectionTitle;
+export default function SectionTitle({ text }) {
+  return <h2 className="section-title">{text}</h2>;
+}
