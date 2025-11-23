@@ -1,5 +1,5 @@
 import React from "react";
-import "./header.css"; // make sure filename matches exactly
+import "./Header.css"; // make sure filename matches exactly
 
 export default function header() {
   return (
