@@ -1,7 +1,7 @@
 import React from "react";
 import "./header.css"; // make sure filename matches exactly
 
-export default function Header() {
+export default function header() {
   return (
     <header className="cy-header">
       <div className="cy-logo">Binsport</div>
