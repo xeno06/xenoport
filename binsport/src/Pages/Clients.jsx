@@ -1,6 +1,6 @@
 import SectionTitle from "../Components/SectionTitle";
 
-function Clients() {
+export default function Clients() {
   return (
     <div className="cy-section cy-dark">
       <SectionTitle title="Clients" />
@@ -8,5 +8,3 @@ function Clients() {
     </div>
   );
 }
-
-export default Clients;

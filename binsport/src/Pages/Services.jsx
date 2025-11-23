@@ -1,6 +1,6 @@
 import SectionTitle from "../Components/SectionTitle";
 
-function Services() {
+export default function Services() {
   return (
     <div className="cy-section cy-light">
       <SectionTitle title="Services" />
@@ -8,5 +8,3 @@ function Services() {
     </div>
   );
 }
-
-export default Services;

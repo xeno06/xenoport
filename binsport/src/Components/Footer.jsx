@@ -1,5 +1,5 @@
 import React from "react";
-import "./footer.css"; // Ensure exact casing
+import "./Footer.css"; // Make sure file is Footer.css
 
 export default function Footer() {
   return (
@@ -11,7 +11,6 @@ export default function Footer() {
           <a href="/clients">Clients</a>
           <a href="/contact">Contact</a>
         </div>
-
         <div className="footer-bottom">
           © 2025 Binsport. All rights reserved.
         </div>

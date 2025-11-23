@@ -1,6 +1,7 @@
+// src/Components/SectionTitle.jsx
 import React from "react";
-import "./section.css";   // <-- This is where you import the CSS
+import "./section.css"; // Make sure this matches the actual file name
 
-export default function SectionTitle({ text }) {
-  return <h2 className="section-title">{text}</h2>;
+export default function SectionTitle({ title }) {
+  return <h2 className="section-title">{title}</h2>;
 }
